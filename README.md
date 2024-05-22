@@ -36,7 +36,7 @@ The objective of this project is to familiarize users with BigQuery and SQL quer
    - Write and execute SQL queries to perform basic data analysis tasks. Refer to `sql/` directory for examples.
 
 4. **Explore Table Management**:
-   - Learn about modifying table schemas, partitioning, and clustering for optimizing query performance. Details in 'docs/table_management.md'.
+   - Learn about modifying table schemas, partitioning, and clustering for optimizing query performance. Details in [`docs/table_management.md`](docs).
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
