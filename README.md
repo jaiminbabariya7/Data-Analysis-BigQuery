@@ -2,6 +2,8 @@
 
 This project provides a hands-on guide for performing basic data analysis tasks using BigQuery in Google Cloud Platform (GCP). You'll learn how to set up BigQuery, load sample data, run SQL queries, and manage tables to optimize query performance.
 
+# GCP Console Link: https://console.cloud.google.com/home/dashboard?project=data-analysis-bigquery-424100
+
 ## Table of Contents
 - [Objective](#objective)
 - [Key Activities](#key-activities)
