@@ -1,5 +1,7 @@
-CREATE TABLE data-analysis-bigquery-424100.customer_data.customer_table_2
+-- Partitioned + clustered copy: date filters prune partitions, and filters
+-- on category / payment_method skip blocks inside each partition.
+CREATE OR REPLACE TABLE `PROJECT_ID.customer_data.customer_table_optimised`
 PARTITION BY invoice_date
-CLUSTER BY category
+CLUSTER BY category, payment_method
 AS
-SELECT * FROM data-analysis-bigquery-424100.customer_data.customer_table;
+SELECT * FROM `PROJECT_ID.customer_data.customer_table`;
